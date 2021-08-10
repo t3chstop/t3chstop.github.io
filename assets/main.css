@@ -1,0 +1,36 @@
+        /*
+        #222629 Black
+        #474B4F Grey
+        #6B6E70 lighter grey
+        #61892F Darker green
+        #86C232 Lighter green
+        */
+body {
+    background-color: #222629;
+}
+
+.logo {
+    color: #86C232;
+    font-size: 24px;
+}
+
+
+.intro-heading {
+    color: #61892F;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+}
+
+.intro {
+    color: white;
+    font-size: 24px;
+}
+
+.subject-header {
+    color: #86C232;
+}
+
+.subject-description {
+    color: white;
+}
+
