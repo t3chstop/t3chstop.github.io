@@ -25,7 +25,7 @@
     <body>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3" id="sticky-sidebar" style="border-right: solid 2px white;">
+          <div class="col-md-2" id="sticky-sidebar" style="border-right: solid 2px white;">
             <div class="sticky-top">
               <nav class="nav flex-md-column">
                 <a class="nav-link active logo" href="#">T3CHSTOP</a>
@@ -42,29 +42,74 @@
                 I am a 15 year old software developer in San Diego, CA. My primary language<br> is Python and I also have
                 experience with full stack web development.
               </p>
+              <input type="button" onClick="document.getElementById('subjects').scrollIntoView();"/>
+
             </header>
 
-            <div class="subject">
-              <h1 class="subject-header">Academics</h1>
-              <p class="subject-description">I have a 4.0 GPA having taken many advanced courses including
-                AP Chemistry and AP Calculus, scoring 5s on both AP exams. I also am the president of an FTC 
-                robotics team and 3D animation club as well as many other academic accomplishments.
-              </p>
-              <button type="button" class="btn btn-outline-dark" style="color: #61892F !important; border-color: #61892F;">Learn More</button>
-            </div>
-            <div class="subject">
-              <h1 class="subject-header">Projects</h1>
-              <p class="subject-description">
-                All my projects are on my <a href="https://github.com/t3chstop">github,</a> but here are a few of my
-                best
-              </p>
-              <button type="button" class="btn btn-outline-dark" style="color: #61892F !important; border-color: #61892F;">Learn More</button>
-            </div>
-            <div class="subject">
-              <h1 class="subject-header">Contact</h1>
-              <p class="subject-description">
-                You can reach me using my email, calidas.siddarth@gmail.com.
-              </p>
+            <div id="subjects">
+              <div class="subject">
+                <h1 class="subject-header">Academics</h1>
+                <p class="subject-description">I have a 4.0 GPA having taken many advanced courses including
+                  AP Chemistry and AP Calculus, scoring 5s on both AP exams. I also am the president of an FTC 
+                  robotics team and 3D animation club as well as many other academic accomplishments. I am currently a
+                  high school junior.
+                </p>
+                <ul class="skills-list">
+                  <li>
+                    PSAT: 1260/1520
+                  </li>
+                  <li>
+                    5 on both AP Calculus AB and AP Chemistry
+                  </li>
+                  <li>
+                    Classes I'm currently taking: AP computer science AB(with Data structures 1-2),
+                    AP Physics 1-2, AP Calculus BC and 
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-outline-dark learn-more">Learn More</button>
+              </div>
+              <div class="subject">
+                <h1 class="subject-header">Projects</h1>
+                <p class="subject-description">
+                  All my projects are on my <a href="https://github.com/t3chstop">github,</a> but here are a few of my
+                  best
+                </p>
+                <ul class="skills-list">
+                  <li>
+                    Social Media Site. This is a work-in-progress social media site built on the Django python web
+                    development framework. This is a good example of my full-stack web development skills, as I had
+                    to write both the backend and frontend on my own
+                  </li>
+                  <li>
+                    This portfolio site. I wrote this static portfolio site from scratch using bootstrap to ensure that
+                    it would remain responsive and readable.
+                  </li>
+                  <li>
+                    Java FTC code for robotics team. Our robotics league utilizes java to build android applications
+                    that can send signals to the different components. These two scripts drove our robot during the
+                    2020-2021 Ultimate Goal Season. I will include our programs for this upcoming season soon as well.
+                  </li>
+                  <li>
+                    Watch render. I have experience with 3D modelling and rendering, and this is one of my renders. I
+                    modeled my watch and textured completely using only blender. This tested my modeling and texturing
+                    capabilities, but I made it work in the end.
+                  </li>
+                  <li>
+                    Nature render. This render was challenging for me because of the intense number of vertices and
+                    images, making it nearly impossible to render on my low end computer. Using various optimization
+                    methods, I produced this render at 2 samples.
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-outline-dark learn-more">
+                  Learn More
+                </button>
+              </div>
+              <div class="subject">
+                <h1 class="subject-header">Contact</h1>
+                <p class="subject-description">
+                  You can reach me using my email, calidas.siddarth@gmail.com.
+                </p>
+              </div>
             </div>
 
           </div>

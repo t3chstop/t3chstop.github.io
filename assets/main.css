@@ -16,21 +16,40 @@ body {
 
 
 .intro-heading {
+    padding-top: 10%;
     color: #61892F;
     font-family: 'Quicksand', sans-serif;
     font-size: 64px;
 }
 
 .intro {
+    padding-top: 5%;
     color: white;
     font-size: 24px;
 }
 
 .subject-header {
     color: #86C232;
+    padding-bottom: 2%;
+    font-size: 48px;
 }
 
 .subject-description {
     color: white;
+    padding-bottom: 1%;
+    font-size: 20px;
 }
 
+header {
+    height: 100vh;
+}
+
+.skills-list {
+    color: white;
+}
+
+.learn-more {
+    color: #61892F !important; 
+    border-color: #61892F; 
+    margin-bottom: 10%;
+}
