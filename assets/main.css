@@ -53,3 +53,11 @@ header {
     border-color: #61892F; 
     margin-bottom: 10%;
 }
+
+a.nav-link {
+    color: white;
+}
+
+a:hover {
+    color: #86C232 !important;
+  }

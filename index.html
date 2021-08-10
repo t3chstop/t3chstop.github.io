@@ -25,17 +25,17 @@
     <body>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2" id="sticky-sidebar" style="border-right: solid 2px white;">
+          <div class="col-lg-2" id="sticky-sidebar" style="border-right: solid 2px white;">
             <div class="sticky-top">
-              <nav class="nav flex-md-column">
-                <a class="nav-link active logo" href="#">T3CHSTOP</a>
-                <a class="nav-link" href="#">Academics</a>
-                <a class="nav-link" href="#">Projects</a>
-                <a class="nav-link" href="#">Contact</a>
+              <nav class="nav flex-lg-column">
+                <a class="nav-link active" href="#" style="color: #86C232; font-size: 24px;">T3CHSTOP</a>
+                <a class="nav-link" href="#academics">Academics</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </nav>
             </div>
           </div>
-          <div class="col-md" id="main">
+          <div class="col-lg" id="main">
             <header>
               <h1 class="intro-heading">SIDDARTH CALIDAS AKA T3CHSTOP</h1>
               <p class="intro">
@@ -50,7 +50,7 @@
             </header>
 
             <div id="subjects">
-              <div class="subject">
+              <div class="subject" id="academics">
                 <h1 class="subject-header">Academics</h1>
                 <p class="subject-description">I have a 4.0 GPA having taken many advanced courses including
                   AP Chemistry and AP Calculus, scoring 5s on both AP exams. I also am the president of an FTC 
@@ -73,7 +73,7 @@
                   because I dont have anything to link it to <button type="button" class="btn 
                   btn-outline-dark learn-more">Learn More</button> -->
               </div>
-              <div class="subject">
+              <div class="subject" id="projects">
                 <h1 class="subject-header">Projects</h1>
                 <p class="subject-description">
                   All my projects are on my <a href="https://github.com/t3chstop">github,</a> but here are a few of my
@@ -107,26 +107,27 @@
                     methods, I produced this render at 2 samples.
                   </li>
                 </ul>
-                <button type="button" class="btn btn-outline-dark learn-more">
-                  Learn More
-                </button>
+                <a href="#subjects" class="btn btn-primary" 
+                style="margin-top: 5%; background-color: transparent; border-color: #61892F; color: #61892F; font-size: 20px; margin-bottom: 5%;">
+                  Learn more
+                </a>
               </div>
-              <div class="subject">
+              <div class="subject" id="contact">
                 <h1 class="subject-header">Contact</h1>
                 <p class="subject-description">
                   You can reach me using my email, calidas.siddarth@gmail.com.
                 </p>
               </div>
             </div>
-
+            <footer class="text-center text-lg-start">
+              <div class="text-center py-3 px-0" style="color: white; background-color: #474B4F; border-top: 1px solid white;">
+                Siddarth Calidas 2021
+              </div>
+            </footer>
           </div>
 
           
-          <footer class="text-center text-lg-start">
-            <div class="text-center py-3 px-0" style="color: white; background-color: #474B4F; border-top: 1px solid white;">
-              Siddarth Calidas 2021
-            </div>
-          </footer>
+
         </div>
       </div>
 
