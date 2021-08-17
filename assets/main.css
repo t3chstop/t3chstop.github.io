@@ -52,6 +52,7 @@ header {
     color: #61892F !important; 
     border-color: #61892F; 
     margin-bottom: 10%;
+    border-radius: 4px;
 }
 
 a.nav-link {
